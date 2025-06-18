@@ -1,4 +1,4 @@
-# DexTracker Client
+# bsc-listen-transactions
 
 A Python library for listening to real-time DEX transactions using the DexTracker API.
 
