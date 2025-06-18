@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="tron-listen-transactions",
+    name="bsc-listen-transactions",
     version="1.0.0",
     author="Your Name",
     author_email="your.email@example.com",
-    description="A Python library for listening to real-time TRON and other DEX transactions",
+    description="A Python library for listening to real-time BSC and other DEX transactions",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/tron-listen-transactions",
+    url="https://github.com/yourusername/bsc-listen-transactions",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -32,7 +32,7 @@ setup(
         "websockets>=11.0.3",
     ],
     keywords=[
-        "tron",
+        "bsc",
         "blockchain",
         "cryptocurrency",
         "dex",
@@ -40,14 +40,10 @@ setup(
         "websocket",
         "real-time",
         "transactions",
-        "ethereum",
-        "solana",
-        "bsc",
-        "base",
         "defi"
     ],
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/tron-listen-transactions/issues",
-        "Source": "https://github.com/yourusername/tron-listen-transactions",
+        "Bug Reports": "https://github.com/yourusername/bsc-listen-transactions/issues",
+        "Source": "https://github.com/yourusername/bsc-listen-transactions",
     },
 )

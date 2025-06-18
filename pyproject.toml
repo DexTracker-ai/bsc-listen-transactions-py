@@ -3,9 +3,9 @@ requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tron-listen-transactions"
+name = "bsc-listen-transactions"
 version = "1.0.0"
-description = "A Python library for listening to real-time TRON and other DEX transactions"
+description = "A Python library for listening to real-time BSC and other DEX transactions"
 readme = "README.md"
 requires-python = ">=3.7"
 license = {text = "MIT"}
@@ -13,7 +13,6 @@ authors = [
     {name = "Your Name", email = "your.email@example.com"}
 ]
 keywords = [
-    "tron",
     "blockchain", 
     "cryptocurrency",
     "dex",
@@ -21,10 +20,7 @@ keywords = [
     "websocket",
     "real-time",
     "transactions",
-    "ethereum",
-    "solana",
     "bsc",
-    "base",
     "defi"
 ]
 classifiers = [
@@ -46,6 +42,6 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/tron-listen-transactions"
-"Bug Reports" = "https://github.com/yourusername/tron-listen-transactions/issues"
-"Source Code" = "https://github.com/yourusername/tron-listen-transactions"
+Homepage = "https://github.com/yourusername/bsc-listen-transactions"
+"Bug Reports" = "https://github.com/yourusername/bsc-listen-transactions/issues"
+"Source Code" = "https://github.com/yourusername/bsc-listen-transactions"

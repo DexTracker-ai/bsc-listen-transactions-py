@@ -26,8 +26,8 @@ async def main():
     tracker.set_on_disconnected(on_disconnected)
     tracker.set_on_reconnecting(on_reconnecting)
 
-    # Connect to track TRON address
-    await tracker.connect('TDxL4V5LE6TYSFXSCWJkkSsCYbgmrDnTer')
+    # Connect to track BSC address
+    await tracker.connect('0x74836cc0e821a6be18e407e6388e430b689c66e9')
 
     # Optional: Disconnect after 60 seconds
     await asyncio.sleep(60)

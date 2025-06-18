@@ -56,7 +56,7 @@ class DexTracker:
         """Check if network is supported"""
         return network in [n.value for n in Network]
 
-    async def connect(self, address: str, network: str = "tron"):
+    async def connect(self, address: str, network: str = "bsc"):
         """Connect to DexTracker WebSocket API"""
         if not self.is_valid_network(network):
             raise ValueError(f"Unsupported network: {network}")

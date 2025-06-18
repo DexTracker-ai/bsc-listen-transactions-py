@@ -7,14 +7,14 @@ A Python library for listening to real-time DEX transactions using the DexTracke
 ### From PyPI
 
 ```bash
-pip install tron-listen-transactions
+pip install bsc-listen-transactions
 ```
 
 ## Usage
 
 ```python
 import asyncio
-from tron_listen_transactions import DexTracker
+from bsc_listen_transactions import DexTracker
 
 async def main():
     tracker = DexTracker()
@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
 ### Methods
 
-- `connect(address, network='tron')` - Connect to track trades for a specific token
+- `connect(address, network='bsc')` - Connect to track trades for a specific token
 - `disconnect()` - Close the connection
 - `is_connected()` - Check connection status
 - `is_valid_network(network)` - Check if network is supported
